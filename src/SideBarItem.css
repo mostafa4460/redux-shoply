@@ -1,0 +1,27 @@
+.SideBarItem {
+    display: flex;
+    padding: 5px;
+    margin-bottom: 2px;
+}
+
+.SideBarItem-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.SideBarItem-content {
+    flex: 1 0 auto;
+}
+.SideBarItem-content h4, .SideBarItem-content p {
+    margin: 0;
+}
+
+.SideBarItem-image {
+    width: 100px;
+    background-size: contain !important;
+}
+
+.SideBarItem-btns {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,22 @@
+.SideBar {
+    display: flex;
+    max-width: 250px;
+}
+
+.SideBar-title {
+    padding: 20px;
+}
+
+.SideBar-divider {
+    margin-bottom: 20px !important;
+}
+
+.SideBar-items {
+    flex: 1;
+}
+
+.SideBar-item {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}

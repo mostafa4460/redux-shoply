@@ -1,0 +1,15 @@
+.Product {
+    display: inline-block;
+    width: 250px;
+    height: 310px;
+    margin: 20px 0 0 20px;
+}
+
+.Product-img {
+    height: 150px;
+    background-size: contain !important;
+}
+
+.Product-btns {
+    justify-content: center;
+}
