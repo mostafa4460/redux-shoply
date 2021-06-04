@@ -1,7 +1,7 @@
 import {Drawer, Typography, Divider, Button} from '@material-ui/core';
 import {useSelector, shallowEqual} from 'react-redux';
-import SideBarItem from './SideBarItem';
-import calcTotal from './helpers/calcTotal';
+import SideBarItem from '../components/SideBarItem';
+import calcTotal from '../helpers/calcTotal';
 import './SideBar.css';
 
 const SideBar = () => {
@@ -34,7 +34,7 @@ const SideBar = () => {
             <div className="SideBar-items">
                 {productsInCart}
             </div>
-            <Typography variant="h5" color="primary">
+            <Typography variant="h5" color="primary" className="SideBar-total">
                 <b>Total: ${cartIsEmpty ? 0 : calcTotal(cart)}</b>
             </Typography>
             <Button 

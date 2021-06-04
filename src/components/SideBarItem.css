@@ -20,8 +20,3 @@
     width: 100px;
     background-size: contain !important;
 }
-
-.SideBarItem-btns {
-    display: flex;
-    justify-content: center;
-}

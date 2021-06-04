@@ -1,15 +1,15 @@
-import Products from './Products';
 import {Container} from '@material-ui/core';
-import SideBar from './SideBar';
+import Routes from '../routes/Routes';
+import SideBar from '../routes/SideBar';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <Container maxWidth="md">
-        <Products />
+        <Routes />
+        <SideBar />
       </Container>
-      <SideBar />
     </div>
   );
 }

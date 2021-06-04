@@ -1,5 +1,5 @@
 import {useSelector, shallowEqual} from 'react-redux';
-import Product from './Product';
+import Product from '../components/Product';
 import {Typography} from '@material-ui/core';
 import './Products.css';
 
